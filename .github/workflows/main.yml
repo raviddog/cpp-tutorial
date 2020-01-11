@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  push-wiki:
+    runs-on: ubuntu-latest
+    steps:
+    - name: wiki-page-creator-action
+    - uses: Decathlon/wiki-page-creator-action@v2.0.0
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }} 
+        ACTION_MAIL: raviddog@outlook.com
+        ACTION_NAME: raviddog
+        OWNER: raviddog
+        REPO_NAME: cpp-tutorial
+        MD_FOLDER: wiki
