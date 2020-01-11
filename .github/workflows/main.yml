@@ -1,0 +1,20 @@
+name: push-to-wiki
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  push-wiki:
+    name: Push wiki folder to Github Wiki
+    runs-on: ubuntu-latest
+    steps:
+    - name: wiki-page-creator-action
+      uses: Decathlon/wiki-page-creator-action@a59c4d6188c049aa2586ff65bc5660f2c136fe6e
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }} 
+        ACTION_MAIL: raviddog@outlook.com
+        ACTION_NAME: raviddog
+        OWNER: raviddog
+        REPO_NAME: cpp-tutorial
+        MD_FOLDER: wiki
