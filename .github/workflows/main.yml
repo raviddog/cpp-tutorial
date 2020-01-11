@@ -1,6 +1,8 @@
-name: CI
-
-on: [push]
+name: push-to-wiki
+on:
+  push:
+    branches:
+    - master
 
 jobs:
   push-wiki:
