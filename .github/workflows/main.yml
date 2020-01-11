@@ -6,6 +6,7 @@ on:
 
 jobs:
   push-wiki:
+    name: Push wiki folder to Github Wiki
     runs-on: ubuntu-latest
     steps:
     - name: wiki-page-creator-action
