@@ -4,6 +4,8 @@ Welcome to my C++ Programming tutorials. I gather you've already read the Readme
 
 ## Reading these tutorials
 
+The tutorials are broken down into multiple Sections. Each section covers a range of topics, as well as a single programming project. Each topic exists as a Page inside the section.
+
 The main chunk of these tutorials will be text paragraphs, like this one, and code blocks. The code blocks will look like the following:
 
 ```c++
