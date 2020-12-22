@@ -15,9 +15,11 @@
 
 ## 1. Basic C++
 
-<details><summary>Contents</summary>
+<details open><summary>Contents</summary>
 
-- 1.0 - Section Overview
+- [1.0 - Section Overview](1.0.Overview)
+- [1.1 - General Program Structure](1.1.ProgramStructure)
+
 </details>
 
 ## 2. Intermediate C++

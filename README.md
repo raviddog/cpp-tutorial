@@ -29,7 +29,7 @@ Each section has a game project that it builds throughout the tutorial. I've see
 Here are the main learning resources I used when learning how to do this stuff. You can use them in the meantime while I work on this. In fact, you should check them out even when I'm done here, they truly are excellent tutorials. I just feel that some parts could be made more beginner friendly, which is why I'm doing this myself.
 
 - [C++ Tutorial](http://www.cplusplus.com/doc/tutorial/introduction/)
-  - This website is also a fantastic reference for C++'s functions. Keep it bookmarked. It's incredibly handy.
+  - This website is also a fantastic reference for C++'s functions. Keep it bookmarked. It's incredibly handy and I use it all the time.
 - [Lazyfoo.net's SDL2 Game Programming tutorials](https://lazyfoo.net/tutorials/SDL/index.php)
   - Great for moving from console programs to windowed programs
 - [Joey DeVries' Modern OpenGL tutorials](https://learnopengl.com/)
